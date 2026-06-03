@@ -9,4 +9,4 @@ logs/
 
 .vscode/
 
-.env
+.envgit add .
