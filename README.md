@@ -1,7 +1,7 @@
 # 📊 DataVault AI
 
 🚀 **Live Demo**
-[https://YOUR-APP-NAME.streamlit.app](https://datavault-ai-jv2tnstbectwjq7vsej2q8.streamlit.app/)
+[https://YOUR-STREAMLIT-APP-URL.streamlit.app](https://datavault-ai-jv2tnstbectwjq7vsej2q8.streamlit.app/)
 
 DataVault AI is an AI-powered Business Intelligence platform built with Python and Streamlit. It automatically detects business datasets, generates executive dashboards, creates forecasting analytics, produces AI-driven insights, and exports professional business reports.
 
@@ -38,7 +38,6 @@ DataVault AI automatically identifies:
 * Vendor Analysis
 * Total Spend Tracking
 * Spend by Vendor Dashboard
-* Vendor Performance Insights
 
 ---
 
@@ -48,7 +47,6 @@ DataVault AI automatically identifies:
 * City Analysis
 * Email Analysis
 * Lead Distribution Dashboard
-* Lead Insights
 
 ---
 
@@ -74,7 +72,6 @@ Automatically generates business insights such as:
 * Best Performing Products
 * Highest Spending Vendors
 * Lead Concentration Analysis
-* Profitability Insights
 * Business Recommendations
 
 ---
@@ -93,6 +90,65 @@ Machine Learning powered forecasting using Scikit-Learn:
 
 * CSV Export
 * Excel Export
+
+---
+
+## 📂 Sample Datasets
+
+The repository includes sample datasets for testing:
+
+* `sample_sales_250.xlsx`
+* `sample_invoice_250.xlsx`
+* `sample_leads_250.csv`
+
+These files are located inside:
+
+```text
+sample_data/
+```
+
+Users may also upload their own CSV or XLSX files that follow the supported dataset structure.
+
+---
+
+## 📊 Supported Dataset Formats
+
+### Sales Dataset
+
+Required columns:
+
+```text
+Date
+Product
+Category
+Region
+Revenue
+Profit
+Quantity
+```
+
+### Invoice Dataset
+
+Required columns:
+
+```text
+Invoice Number
+Vendor
+Subtotal
+Tax
+Total
+```
+
+### Lead Dataset
+
+Required columns:
+
+```text
+Company
+Email
+Phone
+City
+```
 
 ---
 
@@ -130,52 +186,14 @@ datavault-ai/
 ├── dashboard/
 │   └── streamlit_app.py
 │
-├── outputs/
+├── sample_data/
+│   ├── sample_sales_250.xlsx
+│   ├── sample_invoice_250.xlsx
+│   └── sample_leads_250.csv
 │
 ├── requirements.txt
 ├── main.py
 └── .gitignore
-```
-
----
-
-## 📊 Supported Dataset Types
-
-### Sales Dataset
-
-Expected columns:
-
-```text
-Date
-Product
-Category
-Region
-Revenue
-Profit
-Quantity
-```
-
-### Invoice Dataset
-
-Expected columns:
-
-```text
-Invoice Number
-Vendor
-Subtotal
-Tax
-Total
-```
-
-### Lead Dataset
-
-Expected columns:
-
-```text
-Company
-Email
-Phone
-City
 ```
 
 ---
@@ -218,7 +236,6 @@ streamlit run dashboard/streamlit_app.py
 * Database Integration
 * Authentication & User Management
 * Natural Language Business Insights
-* Real-Time Data Connections
 
 ---
 
@@ -226,12 +243,12 @@ streamlit run dashboard/streamlit_app.py
 
 **Biruhi Tesfaye Abeje**
 
-Built as a Business Intelligence and Analytics portfolio project showcasing:
+Built as a portfolio project showcasing:
 
 * Python Development
 * Streamlit Applications
+* Business Intelligence
 * Data Analytics
 * Forecasting
 * Dashboard Development
-* Business Intelligence
 * Automation Solutions
